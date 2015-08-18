@@ -1,0 +1,44 @@
+// AnimatedSmiley.txt
+// 
+// ICS 45J : Lab Assignment 3
+// 
+// Information about the public aspects of the AnimatedSmiley class.
+// 
+// A smiley that can move around a screen, so an extended smiley face
+// that has movement information and methods
+
+class AnimatedSmiley extends SmileyFace
+{
+	
+	// Build a from-scratch AnimatedSmiley to move around the display
+	// It is the same as a from-scratch SmileyFace, with initial
+	// movement information.
+	
+	public AnimatedSmiley(int startXMovement, int startYMovement)
+	
+	// Copy an existing AnimatedSmiley
+	
+	public AnimatedSmiley(AnimatedSmiley orig)
+	
+	// Copy an existing AnimatedSmiley, but replace its movement
+	// information with new movement information
+	
+	public AnimatedSmiley(AnimatedSmiley orig, int startXMovement, int startYMovement)
+	
+	// moveIt - move -- translate -- the smiley along the x and y dimensions the
+	// amounts and directions embodied in its current movement fields
+	
+	public void moveIt()
+	
+	// Set the movements
+	
+	public void setCurrentXMovement(int xValue)
+	public void setCurrentYMovement(int yValue)
+	
+	// Access the current movements
+	
+	public int getCurrentXMovement()
+	public int getCurrentYMovement()
+	
+}
+

@@ -1,0 +1,21 @@
+// BouncingGroup.txt
+// 
+// ICS 45J : Lab Assignment 3
+// 
+// Information about the public aspects of the BouncingGroup class.
+
+public class BouncingGroup
+{
+	
+	// Builds up to three smileys in the group.
+	
+	public BouncingGroup()
+	
+	// Accessor methods that return each of the smileys in the group
+	
+	public AnimatedSmiley getSmiley1()
+	public AnimatedSmiley getSmiley2()
+	public AnimatedSmiley getSmiley3()
+	
+}
+

@@ -1,0 +1,18 @@
+// WallName.txt
+// 
+// ICS 45J : Lab Assignment 3
+// 
+// Information about the WallName enumerated type.
+// 
+// by Norman Jacobson, August 2012
+
+enum WallName
+{
+	// values are:
+	//	LEFT   - the left wall of the graphics display
+	//	RIGHT  - the right wall of the graphics display
+	//	TOP    - the top wall of the graphics display
+	//	BOTTOM - the bottom wall of the graphics display
+	//  NONE   - no wall was designated; often indicates an error
+}
+

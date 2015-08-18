@@ -1,0 +1,45 @@
+// SmileyFace.txt
+// 
+// ICS 45J : Lab Assignment 3
+// 
+// Information about the public aspects of the SmileyFace class.
+// 
+// by Norman Jacobson, August 2012, revised from a document for
+//  ICS 21, September 2009 version.
+
+public class SmileyFace
+{
+    
+	// This constructor initializes a new SmileyFace, creating its four
+	// parts while leaving them centered at (0, 0) with zero-size and
+	// colored gray.
+	
+    public SmileyFace()
+	
+	// This constructor makes a duplicate SmileyFace, with its four parts
+	// having the same attributes as the original one.
+    
+	public SmileyFace(SmileyFace original)
+	
+	// translate() moves the entire face, including all of its parts,
+	// by the given distance across (deltaX) and down (deltaY).
+	
+    public void translate(int deltaX, int deltaY)
+    
+	// Accessors that return each part of a SmileyFace
+	
+    public Face getFace()
+	public Eye getLeftEye()
+	public Eye getRightEye()
+	public Smile getSmile()
+    
+	// return the left/right/top/bottom-most point -- that
+	// "edge" of the smiley face
+	
+    public int getLeftEdge()
+	public int getRightEdge()
+	public int getTopEdge()
+	public int getBottomEdge()
+    
+}
+

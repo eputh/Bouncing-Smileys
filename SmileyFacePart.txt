@@ -1,0 +1,66 @@
+// SmileyFacePart.txt
+// 
+// ICS 45J : Lab Assignment 3
+// 
+// Information about the public aspects of the SmileyFacePart class.
+// 
+// by Norman Jacobson, August 2012, from a document for
+//  ICS 21, September 2009 version.
+// 
+// Classes Eye, Face, and Smile are all extended from SmileyFacePart
+// and so have available to them all the methods discussed below
+
+
+// A component of a SmileyFace...
+abstract class SmileyFacePart
+{
+    
+	// SmileyFacePart() initializes a newly-created SmileyFacePart to be
+	// centered at (0, 0), have a width and height of zero, and be colored gray.
+	
+    public SmileyFacePart()
+	
+	// setAttributes() uses the appropriate helper methods to set the
+	// various attributes of a SmileyFacePart.
+	
+    public void setAttributes(Color newColor, int newCenterX, int newCenterY,
+		double newXLength, double newYLength)
+    
+	// translate() moves a SmileyFacePart the given distance across
+	// (deltaX) and down (deltaY).
+	
+    public void translate(int deltaX, int deltaY)
+    
+	// scale() changes the size of a SmileyFacePart by the given factor.
+	// For example, if the part is 20x20 and the scaleFactor is 3.5,
+	// the part's new size is 70x70.
+	
+    public void scale(double scaleFactor)
+    
+	// setColor() sets the color of a SmileyFacePart to be the color
+	// specified by c.
+	
+    public void setColor(Color c)
+    
+	// setCenter() sets the center of the part to coordinate (x,y)
+	
+    public void setCenter(int x, int y)
+	
+	// setXLength() sets the horizontal length of the part to xLen pixels
+	
+    public void setXLength(double xLen)
+    
+	// setYLength() sets the horizontal length of the part to yLen pixels
+	
+    public void setYLength(double yLen)
+    
+	// Accessor methods to return each of the attributes of a SmileyFacePart.
+	
+    public Color getColor()
+	public int getCenterX()
+	public int getCenterY()
+	public double getXLength()
+	public double getYLength()
+    
+}
+

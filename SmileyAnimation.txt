@@ -1,0 +1,21 @@
+// SmileyAnimation.txt
+// 
+// ICS 45J : Lab Assignment 3
+// 
+// Information about the public aspects of the SmileyAnimation class.
+// 
+// by Norman Jacobson, August 2012
+
+public class SmileyAnimation
+{
+	
+	// Animate the group of bouncing smileys within the bouncing display
+	
+	public SmileyAnimation(BouncingGroup bouncingGroup, BouncingDisplay bouncingDisplay)
+	
+	// Animate the smiley (in its own thread)
+	
+	public void animate()
+	
+}
+
